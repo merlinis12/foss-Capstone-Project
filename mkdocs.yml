@@ -48,8 +48,8 @@ search_index_only: true
 #favicon: material/cogs
 
   # Default values, taken from mkdocs_theme.yml
-  language: en
-  palette: 
+language: en
+palette: 
     - scheme: default
       primary: lime
       accent: purple
@@ -62,15 +62,15 @@ search_index_only: true
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
-  font:
+font:
     text: Montserrat
     code: Regular
-  favicon: material/cogs
-  icon:
+favicon: material/cogs
+icon:
     logo: material/dna
     admonition:
       note: material/map-marker-radius-outline
-  features:
+features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
