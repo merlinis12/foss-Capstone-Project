@@ -13,43 +13,19 @@ copyright: 'Copyright &copy; 2023 - 2024'
 
 # Configuration
 theme:
-    name: material
-    #highlightjs: true
-    #font:
-    #    text: Roboto
-    #    code: Regular
+  name: material
 
-
-# Features  
-features:
-- navigation.instant
-- navigation.tracking
-- navigation.tabs
-- navigation.tabs.sticky
-- navigation.indexes
-- navigation.top
-- toc.follow
-
-# 404 page
-static_templates:
+  # 404 page
+  static_templates:
     - 404.html
 
-# Search feature
-include_search_page: true
-search_index_only: true
-
-## Palette and theme (uses personalized colours)
-#language: en
-#palette:
-#    primary: lime
-#    accent: purple
-#icon:
-#    logo: material/cogs
-#favicon: material/cogs
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
-language: en
-palette: 
+  language: en
+  palette: 
     - scheme: default
       primary: lime
       accent: purple
@@ -62,21 +38,19 @@ palette:
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
-font:
+  font:
     text: Montserrat
     code: Regular
-favicon: material/cogs
-icon:
-    logo: material/dna
+  favicon: material/dna
+  icon:
+    logo: material/cogs
     admonition:
       note: material/map-marker-radius-outline
-features:
+  features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - toc.integrate
-
-
 
 # Page tree--> here you can add all of your pages
 nav:
@@ -90,12 +64,19 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
-# Extra Plugins
+
+ 
 plugins:
-    - search
-    - mkdocstrings
-    - git-revision-date
-    - mkdocs-jupyter:
+  - search
+  - mkdocstrings:
+      custom_templates: templates
+      default_handler: python
+      handlers:
+        python:
+          options:
+            show_source: false
+  - git-revision-date
+  - mkdocs-jupyter:
         include_source: True
         ignore_h1_titles: True
 
