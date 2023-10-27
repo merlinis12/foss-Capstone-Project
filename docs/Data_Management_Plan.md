@@ -12,7 +12,7 @@ PhD Francesca Vitali
 PhD Francesca Vitali
 
 ### Collaborators:
-Simona Merlisi
+Simona Merlini
 
 ### Project Rationale:
 Alzheimer's disease (AD) is a progressive neurodegenerative disease that affects 5.8 million people in US with no effective therapeutic. Therapeutics to prevent, delay and treat AD are urgently needed.  The management and treatment of AD risk factors, such as diabetes and hypertension, might delay or prevent AD onset. To this point, an untreated risk factor generates a cascade that with time increases in complexity and ultimately results in AD. Our aim is to select risk factor profiles that are targetable with a drug class and assess if a therapeutic or a combination of therapeutics can disrupt the risk cascade modifying AD onset. We aim to include in our analyses demographic data (age, sex, ethnicity, genotype, disease stage, socioeconomic status) to stratify efficacy of each therapeutic for AD prevention in a given population.
@@ -22,13 +22,24 @@ Alzheimer's disease (AD) is a progressive neurodegenerative disease that affects
 
 
 ## 1. Data Description
-We will collect tree ring measurements from various tree species in our study area. Data will include tree ring width measurements, corresponding years, and species information. These measurements will be stored in structured CSV and RWL files, with metadata indicating sample location, collection date, and field methods.
 
-We will use data from the UK Biobank (UKB,https://www.ukbiobank.ac.uk) as reference in many studies to characterize the impact of therapeutics targeting Alzheimer's disease (AD) risk factors has on AD and cognitive impairment. This work will support the use of existing large-scale datasets and a precision medicine approach for characterization of sub-populations who will benefit from specific treatment. The results of these analyses will contribute to a growing body of evidence indicative of therapeutic including HMG-CoA reductase inhibitors, estrogen modulating therapeutics amongst others within a responder subset and thus will have the potential to impact AD risk and course in clinical populations.![image](https://github.com/merlinis12/foss-Capstone-Project/assets/144267044/8e8738c7-68f7-4d45-8ec7-7ca26a0214d7)
+We use data from the [UK Biobank](https://www.ukbiobank.ac.uk) as reference in many studies to characterize the impact of therapeutics targeting Alzheimer's disease (AD) risk factors has on AD and cognitive impairment. UK Biobank is a large-scale biomedical database and research resource, containing in-depth genetic and health information from half a million UK participants. The database is regularly augmented with additional data and is globally accessible to approved researchers undertaking vital research into the most common and life-threatening diseases. 
 
 
 ## 2. Data Collection
-Tree cores will be extracted from trees using increment borers. Ring width measurements will be taken using specialized equipment. Species identification will be done based on field observations and confirmed through lab analysis.
+
+UK Biobank is a world-leading biomedical database to enable scientific discoveries that improve human health. Our goal is to inspire the imaginations of health researchers around the world to meet the challenge of greater understanding, prevention, and treatment of a range of serious illnesses. UK Biobank has Research Tissue Bank Approval till 2026 and through access to an unmatched amount of biological and medical data on half a million people living in the UK, we can enable your vision of improving human health. 
+1. UK Biobank is a longitudinal study; it follows the health of 500,000 volunteer participants. 
+2. Participants were aged between 40-69 years when they joined UK Biobank between 2006-2010. 
+3. Each participant attended a baseline assessment at a centre in England (89%), Scotland (7%) and Wales (4%). 4. Participants provided their consent for long-term follow-up. 
+5. Participants answered lots of questions about their health & lifestyle.
+6. Participants donated samples of blood, urine and saliva for long-term storage and analysis. 
+7. Physical measurements were also taken (e.g. height, weight, spirometry, blood pressure, heel bone density). 
+8. Many participants have undertaken MR brain & heart imaging, activity monitoring and online follow-up questionnaires. 
+9. We have genetic data on all 500,000 participants. 
+10. UK Biobank is not representative of the general population with evidence of a ‘healthy volunteer’ selection bias, details of which are published online.
+![image](https://github.com/merlinis12/foss-Capstone-Project/assets/144267044/42ccadb1-b138-4a9f-85b2-9f9dcc31931b)
+
 
 ## 3. Data Storage and Backup
 Tree ring data and associated metadata will be stored in a dedicated directory on our secure research server. Automated daily backups will be conducted to ensure data integrity.
