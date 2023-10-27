@@ -1,5 +1,5 @@
-site_name: FOSS 2023 fall GitHub tutorial
-site_description: Site for tutorial for FOSS 23 attendees
+site_name: FOSS 2023 fall GitHub Project
+site_description: My Project for FOSS 2023 Fall Program
 site_author: Simona Merlini
 site_url: https://merlinis12.github.io/foss-Capstone-Project
 
@@ -14,12 +14,11 @@ copyright: 'Copyright &copy; 2023 - 2024'
 # Configuration
 theme:
     name: material
-highlightjs: true
-font:
-    text: Roboto
-    code: Regular
-palette:
-    scheme: default
+    highlightjs: true
+    font:
+        text: Roboto
+        code: Regular
+
 
 # Features  
 features:
@@ -36,7 +35,7 @@ static_templates:
     - 404.html
 
 # Search feature
-include_search_page: false
+include_search_page: true
 search_index_only: true
 
 # Palette and theme (uses personalized colours)
@@ -72,37 +71,37 @@ plugins:
 
 # Extensions (leave as is)
 markdown_extensions:
-- admonition
-- abbr
-- attr_list
-- def_list
-- footnotes
-- meta
-- md_in_html
-- toc:
-    permalink: true
-    title: On this page
-- pymdownx.arithmatex:
-    generic: true
-- pymdownx.betterem:
-    smart_enable: all
-- pymdownx.caret
-- pymdownx.critic
-- pymdownx.details
-- pymdownx.emoji:
-    emoji_index: !!python/name:materialx.emoji.twemoji
-    emoji_generator: !!python/name:materialx.emoji.to_svg
-- pymdownx.highlight
-- pymdownx.inlinehilite
-- pymdownx.keys
-- pymdownx.magiclink:
-    repo_url_shorthand: true
-    user: squidfunk
-    repo: mkdocs-material
-- pymdownx.mark
-- pymdownx.smartsymbols
-
-- pymdownx.tabbed
-- pymdownx.tasklist:
-    custom_checkbox: true
-- pymdownx.tilde
+    - admonition
+    - abbr
+    - attr_list
+    - def_list
+    - footnotes
+    - meta
+    - md_in_html
+    - toc:
+        permalink: true
+        title: On this page
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink:
+        repo_url_shorthand: true
+        user: squidfunk
+        repo: mkdocs-material
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    
+    - pymdownx.tabbed
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
