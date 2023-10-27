@@ -42,16 +42,13 @@ search_index_only: true
 # Palette and theme (uses personalized colours)
 language: en
 palette:
-    primary: custom
-    accent: custom
+    primary: lime
+    accent: purple
 icon:
     logo: material/cogs
     favicon: material/cogs
 
 # Page tree--> here you can add all of your pages
-nav:
- - Home: index.md
- - Data Management Plan: Data_Management_Plan.md
 
 nav:
   - Home: index.md
