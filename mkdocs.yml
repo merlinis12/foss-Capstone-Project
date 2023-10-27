@@ -32,13 +32,13 @@ theme:
   palette: 
     - scheme: default
       primary: blue grey
-      accent: purple
+      accent: deep purple
       toggle:
         icon: material/brightness-3
         name: Switch to dark mode
     - scheme: slate
       primary: blue grey
-      accent: purple 
+      accent: deep purple 
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
@@ -59,7 +59,7 @@ theme:
 # Page tree--> here you can add all of your pages
 nav:
   - Home: index.md
-  - About me: 
+  - About me: https://www.linkedin.com/in/simona-merlini-42a336200
   - Data Managemen Plan: Data_Management_Plan.md
   - Data Science Fellows Program: https://datascience.arizona.edu/education/data-science-fellows
   - CIBS Main Page: https://cibs.uahs.arizona.edu/
