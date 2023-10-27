@@ -46,7 +46,7 @@ palette:
     accent: purple
 icon:
     logo: material/cogs
-    favicon: material/cogs
+favicon: material/cogs
 
 # Page tree--> here you can add all of your pages
 
@@ -56,6 +56,10 @@ nav:
   - Governance & Operations: Governance_Operations.md
   - Data Science Fellows Program: https://datascience.arizona.edu/education/data-science-fellows
   - CIBS Main Page: https://cibs.uahs.arizona.edu/
+
+# Theme Extras
+extra_css:
+  - stylesheets/extra.css
 
 # Extra Plugins
 plugins:
