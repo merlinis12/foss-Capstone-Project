@@ -59,7 +59,7 @@ theme:
 # Page tree--> here you can add all of your pages
 nav:
   - Home: index.md
-  - About me: https://www.linkedin.com/in/simona-merlini-42a336200
+  - About me: https://merlinis12.github.io/merlinisimona.github.io #https://www.linkedin.com/in/simona-merlini-42a336200
   - Data Managemen Plan: Data_Management_Plan.md
   - Data Science Fellows Program: https://datascience.arizona.edu/education/data-science-fellows
   - CIBS Main Page: https://cibs.uahs.arizona.edu/
