@@ -60,9 +60,8 @@ theme:
 nav:
   - Home: index.md
   - About me: https://merlinis12.github.io/merlinisimona.github.io #https://www.linkedin.com/in/simona-merlini-42a336200
-  - Data Managemen Plan: Data_Management_Plan.md
-  - Data Science Fellows Program: https://datascience.arizona.edu/education/data-science-fellows
-  - CIBS Main Page: https://cibs.uahs.arizona.edu/
+  - Data Management Plan: Data_Management_Plan.md
+  - DSF Main Page: https://datascience.arizona.edu/education/data-science-fellows
   - FOSS Main Page: https://foss.cyverse.org/
 
 # Theme Extras
