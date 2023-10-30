@@ -2,7 +2,7 @@
 
 This document takes into consideration data that I use for my research.
 
-** Project Overview
+## Project Overview
 **Project Title**: Identification of precision therapeutics for Alzheimer's disease prevention and treatment
 
 **Principal Investigator**: PhD Francesca Vitali
@@ -22,7 +22,7 @@ We use data from the [UK Biobank](https://www.ukbiobank.ac.uk) to characterize t
 ## 2. Data Collection
 
 UK Biobank is a world-leading biomedical database to enable scientific discoveries that improve human health. UK Biobank has Research Tissue Bank Approval till 2026 and through access to an unmatched amount of biological and medical data on half a million people living in the UK. Below, the main characteristics of the study:
-1. UK Biobank is a longitudinal study; it follows the health of 500,000 volunteer participants. 
+1.UK Biobank is a longitudinal study; it follows the health of 500,000 volunteer participants. 
 1. Participants were aged between 40-69 years when they joined UK Biobank between 2006-2010. 
 1. Each participant attended a baseline assessment at a centre in England (89%), Scotland (7%) and Wales (4%).
 1. Participants provided their consent for long-term follow-up. 
@@ -36,19 +36,16 @@ UK Biobank is a world-leading biomedical database to enable scientific discoveri
 UK Biobank is linked to the health-related records of the participants (through cancer and death registries and through hospital episode and primary care data) and in time to a range of other health-related records (further details are available on UK Biobank’s website).
 
 ## 3. Data Extraction
-Principally through UK Biobank's website and periodic updates. Specifically in relation to the UK Biobank website, the website highlights changes and developments, such as the release of new data types, the establishment of data linkage and the status of enhancement proposals. UK Biobank is periodically updated and they send update to researchers by email with news about the development of items of interest to them. Further, UK Biobank advertises the existence and content of returned datasets via the [Data Showcase](https://biobank.ndph.ox.ac.uk/showcase/) and in due course using email alerts.
-
-For the UK Biobank dataset, [Research Analysis Platform](https://www.ukbiobank.ac.uk/enable-your-research/research-analysis-platform) will be used to access the data in the cloud.
+UK Biobank is periodically updated and they send update to researchers by email with news about the development of items of interest to them. Further, UK Biobank advertises the existence and content of returned datasets via the [Data Showcase](https://biobank.ndph.ox.ac.uk/showcase/) and in due course using email alerts. For the UK Biobank dataset, [Research Analysis Platform](https://www.ukbiobank.ac.uk/enable-your-research/research-analysis-platform) will be used to access and download the data.
 
 
 
 ## 4. Data Storage and Backup
-There is no data-archiving as these data are 'owned' by the UK Biobank, we are only allowed to use it as long as the project runs. The original data remains at the UK Biobank and can be downloaded/obtained from them at any time when needed. Therefore, there are only costs for data access/right ('Maintenance Dataset'), and the datamanager ('Division') and data analysis tool/storage ('Other'). As UK Biobank will retain a copy of the results data, it will not (and does not need to) proscribe a time limit to the researchers for the retention of data. The data is not backed up or stored for any other purpose then analyses. The original data can be obtained from the UK Biobank, all at the responsibility of the individual project-members. These data are stored at the individual Box-health folder for each accepted researcher.
-In the event the data are deleted we can re-download these from the UK Biobank servers.
+There is no data-archiving as these data are 'owned' by the UK Biobank, we are only allowed to use it as long as the project runs. The original data remains at the UK Biobank and can be downloaded/obtained from them at any time when needed. Therefore, there are only costs for data access/right ('Maintenance Dataset'), and the datamanager ('Division') and data analysis tool/storage ('Other'). The data downloaded are stored in the individual Box-health folder for each accepted researcher. In the event the data are deleted we can re-download these from the UK Biobank servers.
 
 
 ## 5.Data Protection and Security
-The data downloaded from the UK Biobank website are stored is a Box-Health folder that can not be shared with noone beside the owner of the folder. The folder is password-protected.
+The data downloaded from the UK Biobank website are stored in a Box-Health folder that can not be shared with noone beside the owner of the folder. The folder is password-protected.
 
 The anonymisation of the data is irreversible in the hands of the researchers by way of the irreversible algorithm. UK Biobank retains an internal database which enables UK Biobank (and only UK Biobank) to reverse anonymise the data. They provide access to these data under their informed consent and only to people they deem certified to access these data. We obtain these data through a secure and encrypted link. The data are pseudonymised by the UK Biobank and are unique to each requested project; in other words the sampleIDs are random for each project number. For further details please refer to [UK Biobank Access Procedures](https://www.ukbiobank.ac.uk/media/llupxihh/20210309-access-procedures-v2-0-final.pdf).
 
