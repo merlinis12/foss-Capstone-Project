@@ -1,6 +1,5 @@
 # Welcome to my Capstone Project web page!
 
-**What is the Capstone Project about?**
 The Capstone project was made for CyVerse Foundational Open Science Skills 2023 Workshop. It contains some of the skills that I have learned over the 8 weeks of the course.
 
 ## Capstone Project Structure
