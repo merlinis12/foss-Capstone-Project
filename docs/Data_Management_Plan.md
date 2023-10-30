@@ -22,6 +22,7 @@ We use data from the [UK Biobank](https://www.ukbiobank.ac.uk) to characterize t
 ## 2. Data Collection
 
 UK Biobank is a world-leading biomedical database to enable scientific discoveries that improve human health. UK Biobank has Research Tissue Bank Approval till 2026 and through access to an unmatched amount of biological and medical data on half a million people living in the UK. Below, the main characteristics of the study:
+
 - UK Biobank is a longitudinal study; it follows the health of 500,000 volunteer participants. 
 - Participants were aged between 40-69 years when they joined UK Biobank between 2006-2010.
 - Each participant attended a baseline assessment at a centre in England (89%), Scotland (7%) and Wales (4%).
